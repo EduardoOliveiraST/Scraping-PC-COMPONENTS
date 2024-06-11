@@ -63,3 +63,5 @@ pyautogui.moveTo(x_final, y_final, duration=0.2)
 pyautogui.mouseUp(x=x_final, y=y_final)
 time.sleep(0.5)
 pyautogui.hotkey('ctrl', 'c')
+
+print('a')
